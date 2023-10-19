@@ -1,0 +1,226 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,400;1,700&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "roboto", sans-serif;
+  font-weight: 400;
+  line-height: 1.6;
+}
+
+/* SetUp color */
+:root {
+  --backgound-button-gradient: linear-gradient(
+    to right,
+    #f55f8d 0,
+    #f8ae56 51%,
+    #f55f8d 100%
+  );
+  --background-size: 200%;
+  --text-pink-color: #f55f8d;
+  --text-bold-black-color: black;
+  --text-black-color: #636363;
+  --white-color: white;
+  --animate-duration: 2s;
+  --animate-delay: 1s;
+  --animate-repeat: 1;
+}
+
+/* Reset css */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* Responsive SetUp */
+
+/*
+Responsive default of Bootstrap
+col-xs: <= 768
+col-sm: >= 768
+col-md: >= 992
+col-lg: >= 1200
+*/
+
+@media screen and (min-width: 992px) {
+  .menu-toggle {
+    display: none;
+  }
+}
+
+@media (min-width: 1500px) {
+  .container {
+    max-width: 1368px;
+  }
+}
+
+@media (min-width: 2100px) {
+  .container {
+    max-width: 1400px;
+  }
+  p,
+  body,
+  button,
+  input {
+    font-size: 18px;
+    line-height: 32px;
+  }
+}
+
+/* Example Icon */
+.btn-icon {
+  color: red;
+}
+
+@media (max-width: 1399px) {
+}
+
+@media (max-width: 1199px) {
+}
+
+@media (max-width: 991px) {
+}
+
+@media (max-width: 575px) {
+  .container,
+  .container-fluid {
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 400px) {
+  .container,
+  .container-fluid {
+    padding: 0 15px;
+  }
+}
+
+/* ************************** */
+
+@media screen and (min-width: 992px) {
+}
+
+@media (max-width: 991px) {
+}
